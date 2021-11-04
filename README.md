@@ -1,2 +1,2 @@
-# N-mma
+# Namma
 Veebilehe projekti sissejuhatus erialas
