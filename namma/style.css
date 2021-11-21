@@ -1,0 +1,57 @@
+#kaekiri_title {
+    color: #4D4D4D;
+    font-family: 'Snell Roundhand';
+    font-size: 50px;
+    text-align: center;
+}
+
+#kaekiri_body {
+    color: #4D4D4D;
+    font-family: 'Snell Roundhand';
+    font-size: 20px;
+    text-align: left;
+}
+
+#normaalne_subtitle {
+    color: #4D4D4D;
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#normaalne_body {
+    color: #4D4D4D;
+    font-family: 'Courier New';
+    font-size: 20px;
+    text-align: left;
+}
+
+#link {
+    color: #583BF6;
+    font-family: 'Snell Roundhand';
+    font-size: 20px;
+    text-align: left;
+}
+
+#pilt {
+    height: 250px;
+    width: 500px;
+    box-shadow: 6px 12px #EBEAEA;
+}
+
+#taust {
+    background-image: url('taust.jpg');
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
