@@ -7,53 +7,87 @@
     margin-top: 0px;
     text-align: center;
     overflow: hidden;
-  }
-  .image-container {
-    width: 1500px;
-    background-color: rgb(255, 7, 48);
-    height: 300px;
-    clear: both;
-    position: relative;
-    /*-webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;*/
-    transition: left 2s;
-  }
-  .slide {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-  }
-  #slide-1:target ~ .image-container {
-    left: 0px;
-  }
-  #slide-2:target ~ .image-container {
-    left: -500px;
-  }
-  #slide-3:target ~ .image-container {
-    left: -1000px;
-  }
-  .buttons {
-    position: relative;
-    top: -20px;
-  }
-  .buttons a {
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-    border-radius: 50px;
-    background-color: rgb(243, 226, 226);
-  }
-  .image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .div{
-    /*background-color:  #f8f7f6;*/
-    text-align: left;
-    margin-left:auto;
-    margin-right:auto;
-    width: 40%; 
-  }
+}
+.image-container {
+  width: 1500px;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  background-color: rgb(243, 226, 226);
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div{
+  /*background-color:  #f8f7f6;*/
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40%; 
+}
+#taust {
+  background-image: url('taust.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#kaekiri_title {
+  color: #4D4D4D;
+  font-family: 'Snell Roundhand';
+  font-size: 50px;
+  text-align: center;
+}
+
+#kaekiri_body {
+  color: #4D4D4D;
+  font-family: 'Snell Roundhand';
+  font-size: 20px;
+  text-align: left;
+}
+
+#normaalne_subtitle {
+  color: #4D4D4D;
+  font-family: 'Courier New';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#normaalne_body {
+  color: #4D4D4D;
+  font-family: 'Courier New';
+  font-size: 20px;
+  text-align: left;
+}
