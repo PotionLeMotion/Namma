@@ -57,7 +57,7 @@
   width: 40%; 
 }
 #taust {
-  background-image: url('taust.jpg');
+  background-image: url('maini-taust2.jfif');
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
@@ -118,20 +118,13 @@
   clear: both;
 }
 
-.column2 {
-  float: left;
-  width: 33.3%;
-  padding: 70px;
-}
-
-.container {
-  height: 800px;
-  /*width: 2050px;*/
+.table {
+  text-align: center;
+  height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* {
-  box-sizing: border-box;
-}
+ .th {
+  padding: 20px
+ }
