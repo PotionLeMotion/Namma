@@ -57,11 +57,13 @@
   width: 40%; 
 }
 #taust {
-  background-image: url('taust.jpg');
-  -webkit-background-size: cover;
+  background-image: url('taust1.jpg');
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #kaekiri_title {
   color: #4D4D4D;
