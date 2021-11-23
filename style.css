@@ -93,3 +93,26 @@
   font-size: 20px;
   text-align: left;
 }
+#link {
+  color: #583BF6;
+  font-family: 'Snell Roundhand';
+  font-size: 20px;
+  text-align: left;
+}
+
+#pilt {
+  height: 250px;
+  width: 500px;
+  box-shadow: 6px 12px #EBEAEA;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
