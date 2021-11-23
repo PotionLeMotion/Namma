@@ -95,9 +95,10 @@
 }
 #link {
   color: #583BF6;
-  font-family: 'Snell Roundhand';
+  font-family: 'Courier New';
   font-size: 20px;
   text-align: left;
+  padding-top: 500px;
 }
 
 #pilt {
@@ -115,4 +116,22 @@
   content: '';
   display: table;
   clear: both;
+}
+
+.column2 {
+  float: left;
+  width: 33.3%;
+  padding: 70px;
+}
+
+.container {
+  height: 800px;
+  /*width: 2050px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* {
+  box-sizing: border-box;
 }
