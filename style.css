@@ -4,15 +4,16 @@
     background-color: rgb(255, 208, 0);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: auto;
     text-align: center;
     overflow: hidden;
+    position: relative;
 }
 .image-container {
   width: 1500px;
   height: 300px;
-  clear: both;
   position: relative;
+  clear: both;
   -webkit-transition: left 2s;
   -moz-transition: left 2s;
   -o-transition: left 2s;
@@ -20,9 +21,9 @@
 }
 .slide {
   float: left;
-  margin: 0px;
-  padding: 0px;
+  padding: auto;
   position: relative;
+  box-shadow: 6px 12px #EBEAEA;
 }
 #slide-1:target ~ .image-container {
   left: 0px;
@@ -48,22 +49,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 6px 12px #EBEAEA;
 }
 .div{
   /*background-color:  #f8f7f6;*/
   text-align: left;
   margin-left:auto;
   margin-right:auto;
-  width: 40%; 
-}
-#taust {
-  background-image: url('maini-taust2.jpg');
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  width: 1000px; 
 }
 #kaekiri_title {
   color: #4D4D4D;
@@ -94,11 +87,12 @@
   text-align: left;
 }
 #link {
-  color: #583BF6;
+  color: #302612;
   font-family: 'Courier New';
   font-size: 20px;
   text-align: left;
   padding-top: 300px;
+  text-decoration: none;
 }
 
 #pilt {
