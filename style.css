@@ -59,32 +59,33 @@
   width: 1000px; 
 }
 #kaekiri_title {
-  color: #4D4D4D;
+  color: #000000;
   font-family: 'Snell Roundhand';
   font-size: 50px;
   text-align: center;
 }
 
 #kaekiri_body {
-  color: #4D4D4D;
+  color: #000000;
   font-family: 'Snell Roundhand';
   font-size: 20px;
   text-align: left;
 }
 
 #normaalne_subtitle {
-  color: #4D4D4D;
+  color: #000000;
   font-family: 'Courier New';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   text-align: left;
 }
 
 #normaalne_body {
-  color: #4D4D4D;
+  color: #000000;
   font-family: 'Courier New';
   font-size: 20px;
   text-align: left;
+  font-weight: bolder;
 }
 #link {
   color: #302612;
@@ -93,31 +94,28 @@
   text-align: left;
   padding-top: 300px;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 #pilt {
   height: 250px;
   width: 500px;
-  box-shadow: 6px 12px #EBEAEA;
+  box-shadow: 4px 7px #EBEAEA;
+  font-size: 0px;
 }
 #pilt_pannkook {
   height: 299px;
   width: 450px;
+  box-shadow: 4px 7px #EBEAEA;
 }
 #taust {
-  background-image: url('taust.jpg');
+  background-image: url('taust_lõikelaud2.jpg');
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-#font_pannkook {
-  color: #000000;
-  font-family: 'Courier New';
-  font-size: 20px;
-  text-align: left;
 }
 .column {
   float: left;
@@ -133,14 +131,14 @@
 
 .table {
   text-align: center;
-  height: 800px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /*padding-top: 300px;*/
+  /*padding-top: 100px;*/
 }
 .th {
-  padding: 20px
+  padding: 5px
  }
 
 .menubar {
@@ -173,4 +171,11 @@
 }
 .namma2 {
   float: left;
+}
+#taane_index {
+  color: #000000;
+  font-family: 'Snell Roundhand';
+  font-size: 50px;
+  text-align: center;
+  line-height: 220px;
 }
