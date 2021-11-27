@@ -60,9 +60,10 @@
 }
 #kaekiri_title {
   color: #000000;
-  font-family: 'Snell Roundhand';
+  font-family:'Franklin Gothic Medium';
   font-size: 50px;
   text-align: center;
+  font-weight: lighter;
 }
 
 #kaekiri_body {
@@ -86,6 +87,20 @@
   font-size: 20px;
   text-align: left;
   font-weight: bolder;
+}
+#teine_heading {
+  color: #000000;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 24px;
+  text-align: left;
+  font-weight: lighter;
+}
+#kolmas_heading {
+  color: #000000;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 22px;
+  text-align: left;
+  font-weight: lighter;
 }
 #link {
   color: #302612;
@@ -165,6 +180,8 @@
 .namma {
   float: left;
   text-align: center;
+  font-family: 'Cambria';
+  font-weight: bolder;
   font-size: 24px;
   padding-left: 50px;
   background-color: rgba(240, 236, 226, 0.705);
@@ -178,4 +195,11 @@
   font-size: 50px;
   text-align: center;
   line-height: 220px;
+  font-weight: lighter;
+}
+#pealkiri_index {
+  color: #000000;
+  font-family: 'Cambria';
+  font-size: 24px;
+  font-weight: bolder;
 }
