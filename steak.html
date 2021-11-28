@@ -50,21 +50,73 @@
         <h3 class='kolmas_heading'>3. Praadimise ajal</h3>
         <p>Lisa pannile küüslauk, või ning tüümian (rosmariin). Praadimise vältel, kasutades lusikat, pintselda liha üle pannile tekkinud mahladega.</p>
     </div>
-    <div class="slider">
-        <span id="slide-1"></span>
-        <span id="slide-2"></span>
-        <span id="slide-3"></span>
-        <div class="image-container">
-          <img src="kyyslauk.jpg" class="slide" width="500" height="300" alt='pilt küüslauk'/>
-          <img src="voi.jpg" class="slide" width="500" height="300" alt='pilt või'/>
-          <img src="herbs.jpg" class="slide" width="500" height="300" alt='pilt maitsetaimed'/>
-        </div>
-        <div class="buttons">
-          <a href="#slide-1"></a>
-          <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
-        </div>
+
+
+
+<!--JÄRGNEV OSA ON VÕETUD https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+        <div class="slideshow-container " class='div'>
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="kyyslauk.jpg" style="width:50%">
+              <div class="text">Lisa küüslauk</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="voi.jpg" style="width:50%">
+              <div class="text">Lisa või</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="herbs.jpg" style="width:50%">
+              <div class="text">Lisa maitseained</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
     </div>
+
+<!--TAAS MEIE OSA-->
     <div class="div">
         <h3 class='kolmas_heading'>4. Naudi</h3>
         <p>Kui liha on ära praadinud, tõsta see taldrikule ning lase sellel jahtudada 2 minutit. Peale seda naudi!</p>
