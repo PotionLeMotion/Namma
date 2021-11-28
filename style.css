@@ -92,8 +92,11 @@
   color: #000000;
   font-family: 'Franklin Gothic Medium';
   font-size: 24px;
-  text-align: left;
   font-weight: lighter;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  width: 1000px; 
 }
 #kolmas_heading {
   color: #000000;
