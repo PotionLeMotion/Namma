@@ -105,7 +105,7 @@
   text-align: left;
   font-weight: lighter;
 }
-#link {
+.link {
   color: #302612;
   font-family: 'Courier New';
   font-size: 20px;
@@ -115,7 +115,7 @@
   font-weight: bolder;
 }
 
-#pilt {
+.pilt {
   height: 250px;
   width: 500px;
   box-shadow: 4px 7px #EBEAEA;
