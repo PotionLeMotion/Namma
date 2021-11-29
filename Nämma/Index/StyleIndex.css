@@ -1,13 +1,13 @@
 .namma {
     float: left;
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Cambria';
     font-weight: bolder;
     font-size: 24px;
     padding-left: 50px;
     background-color: rgba(240, 236, 226, 0.705);
 }
-#taane_index {
+.taane_index {
     color: #000000;
     font-family: 'Snell Roundhand';
     font-size: 50px;
